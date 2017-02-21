@@ -16,7 +16,7 @@ load("Iowa_Data_LONG.Rdata")
 
 ### prepareSGP
 
-Iowa_SGP <- prepareSGP(Iowa_Data_LONG)
+Iowa_SGP <- prepareSGP(Iowa_Data_LONG, fix.duplicates="KEEP.ALL")
 
 save(Iowa_SGP, file="Iowa_SGP.Rdata")
 
