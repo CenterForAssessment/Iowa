@@ -44,3 +44,10 @@ save(Iowa_SGP, file="Iowa_SGP.Rdata")
 ### visualizeSGP
 
 visualizeSGP(Iowa_SGP, plot.types=c("growthAchievementPlot", "studentGrowthPlot"), sgPlot.demo.report=TRUE)
+
+
+### outputSGP
+
+outputSGP(Iowa_SGP)
+
+
